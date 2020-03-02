@@ -1,5 +1,5 @@
 # geoip-ripe-ipset
-Its 2020. GeoIP csv is not available. So use RIPE database + ipset instead of geoip ipset module.
+Its 2020. GeoIP csv is not available. So use RIPE database + ipset instead of geoip iptables module. Just add it to the crontab. IP list is not changing that much, so I recommend 1 update/day.
 
 ### dependencies:
  - LWP::UserAgent (ubuntu: libwww-perl)
