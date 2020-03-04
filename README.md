@@ -1,4 +1,4 @@
-# geoip-ripe-ipset
+# geoip-ripe-ipset (iptables geoip replacement)
 Its 2020. GeoIP csv is not available. So use RIPE database + ipset instead of geoip iptables module. Just add it to the crontab. IP list is not changing that much, so I recommend 1 update/day.
 
 ### dependencies:
