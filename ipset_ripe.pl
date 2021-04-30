@@ -9,7 +9,7 @@ use Digest::MD5 qw(md5_hex);
 use Getopt::Std;
 
 
-my $url_ripe = "https://stat.ripe.net/data/country-resource-list/data.json?v4_format=prefix;resource=";
+my $url_ripe = "https://stat.ripe.net/data/country-resource-list/data.json?v4_format=prefix&resource=";
 my $dir_cache = "/tmp";
 my $cache_time = 3600;
 my $http_api_timeout = 20;
