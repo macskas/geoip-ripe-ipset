@@ -4,7 +4,12 @@ Its 2020. GeoIP csv is not available. So use RIPE database + ipset instead of ge
 ### dependencies:
  - LWP::UserAgent (ubuntu: libwww-perl)
  - JSON::XS (ubuntu: libjson-xs-perl) (you can replace it with JSON::PP)
- 
+ - ipset 
+
+Debian based:
+```
+apt install ipset libjson-xs-perl libwww-perl
+```
  
 ### example
 ```
